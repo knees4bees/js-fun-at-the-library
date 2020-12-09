@@ -24,7 +24,7 @@ function unshelfBook(givenTitle, givenShelf) {
 //     }
 //   }
 //
-//   givenShelf = newShelf;
+//   givenShelf = newShelf;  // From Kayla: You can't reassign the value of a parameter like that. JS is not going to read that line and follow the parameter all the way up back to its original source and reassign the value. The reason .splice works in your first solution, is because splice is a mutator method.
 // }
 
 
